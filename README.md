@@ -1,5 +1,7 @@
 # Fractional grid graph paper
 
+All six variants (cm, inch, and quarter-inch × letter and A4) are in the [`output/`](output/) directory—you can download those PDFs directly without installing Python or running the generator.
+
 This project builds **print-ready dot graph paper** for drawing, layout, and math on paper—without buying a fixed pad or fighting printer margins. Several **nested grids** share one sheet: coarse **4×** and **1×** marks for major structure, **½×** and **¼×** subdivisions for finer work, a **⅓×** red overlay for thirds, and **green** highlights every third **1×** intersection so 3× and 4× rhythms are easy to see. You choose the **base unit** (`cm`, full `inches`, or `quarter-inch`) and **paper size** (`letter` or `A4`) so the same fractional relationships fit metric sketching, inch-scale plans, or fine quarter-inch work. Each PDF has **two identical pages**, **zero margins**, and a consistent **upper-left** anchor (large **4×** dot at the top-left), which helps when tiling pages or aligning to a ruler. The README also includes a **dot-to-dot angle table** for lines you draw through the **1×** grid—useful for geometry, ramps, and isometric-style sketches on a square lattice.
 
 Dot **spacing** follows `-base`. Dot **sizes** on the page stay fixed in millimeters (they do not scale when you switch base units).
